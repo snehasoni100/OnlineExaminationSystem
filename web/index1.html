@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <style>
+            * {
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+#header{
+  padding: 10px;
+
+}
+            input[type=text], input[type=password],input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+.registerbtn {
+  background-color: burlywood;
+  color: white;
+  padding: 15px 10px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  background-color: sandybrown;
+}
+
+
+p {
+  
+  text-align: center;
+}
+a {
+  color: dodgerblue;
+  text-align: center;
+}
+</style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div id="page">
+        <div id="header">
+<center><h1>ONLINE EXAMINATION SYSTEM</h1></center>
+
+<center><h1>Registration Form</h1></center><br></div>
+<form action="Registration.jsp" method="POST">
+    <label for="Name">Name</label><br>
+    
+    <input type="text" name="Name"required><br>
+      <label for="Email">Email</label><br>
+    <input type="email" name="Email"required><br>
+<label for="Mobile">Mobile</label><br>
+    <input type="text" name="Mobile"required><br>
+<label for="Password">Password</label><br>
+    <input type="password" name="Password"required><br>
+
+    
+    <button type="submit" class="registerbtn"> REGISTER</button>
+</form>
+    <p>Already Registered ? <a href="login.html">LOGIN HERE</a></p>
+    
+        </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div id="footer">
+<center><h1> Developed By: SNEHA SONI</h1></center>
+</div>
+    </body>
+</html>
